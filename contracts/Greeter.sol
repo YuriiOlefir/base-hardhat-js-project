@@ -42,11 +42,11 @@ contract Greeter {
         return greeting;
     }
 
-    /** 
+    /**
      * @notice Outputs the greeting to console.
      *
      * This is an example of `hardhat/console.sol` usage.
-    */
+     */
     function consoleGreet() external view {
         console.log("Greeting: '%s'", greeting);
     }
